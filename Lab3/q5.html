@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+</head>
+<body>
+    
+    <h1>Welcome to Payment UPI</h1><br/><br/>
+    <input type="number" name="amount" id="amount"/><br/><br/>
+    <button onClick="makePayment()" id="submit-button">submit</button>
+
+    <h2 id="details"></h2>
+
+    <script>
+        const details = document.getElementById("details");
+        function makePayment() {
+            const amount = document.getElementById("amount").value;
+            document.getElementById("submit-button").disabled = true;
+            setTimeout(()=>{
+                details.innerText = "Authenticating User...";
+                setTimeout(()=> {
+                    details.innerText ="Verfiying Bank Details...";
+                    setTimeout(()=> {
+                        details.innerText = "Processing the Payment....";
+                        setTimeout(()=> {
+                            details.innerText = "Updating Bank Balance";
+                            setTimeout(()=> {
+                                details.innerText = "Payment Done...."
+                                document.getElementById("submit-button").disabled = false;
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000)
+            },1000);
+        }
+    </script>
+</body>
+
+</html>

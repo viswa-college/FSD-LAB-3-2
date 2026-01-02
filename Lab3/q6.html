@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVR College Of Engineering</title>
+</head>
+<body>
+    
+    <h1>Welcome to Course Enrollement</h1><br/><br/>
+    <label for="roll">Roll No:</label><br/><br/>
+    <input type="text" name="roll" id="roll"/><br/><br/>
+    <label for="course">Course :</label><br/><br/>
+    <input type="text" name="course" id="course"/><br/><br/>
+    <button onClick="makeEnrollement()" id="submit-button">submit</button>
+
+    <h2 id="details"></h2>
+
+    <script>
+        const details = document.getElementById("details");
+        function makeEnrollement() {
+            const roll = document.getElementById("roll");
+            const course = document.getElementById("course");
+            document.getElementById("submit-button").disabled = true;
+            setTimeout(()=>{
+                details.style.color = 'red';
+                details.innerText = "Checking prerequisites...";
+                setTimeout(()=> {
+                    details.style.color = 'green';
+                    details.innerText = "Prerequisites Statisfiyed..."
+                    setTimeout(()=> {
+                        details.style.color = 'red';
+                        details.innerText ="Checking for course Avaliable...";
+                        setTimeout(()=> {
+                            details.style.color = 'green';
+                            details.innerText = "Course is Avaliable..."
+                            setTimeout(()=> {
+                                details.style.color = 'red';
+                                details.innerText ="Adding to the course...";
+                                setTimeout(()=> {
+                                    details.style.color = 'green';
+                                    details.innerText = "Email Verification Sent..."
+                                    setTimeout(()=> {
+                                        details.style.color = 'blue';
+                                        details.innerText = "Course Enrollment Done..."
+                                        document.getElementById("submit-button").disabled = false;
+                                    },1000)
+                                },1000)
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000)
+            },1000);
+        }
+    </script>
+</body>
+
+</html>

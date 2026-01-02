@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVR College Of Engineering</title>
+</head>
+<body>
+    
+    <h1>Welcome to Result Management</h1><br/><br/>
+    <label for="name">Roll No :</label><br/><br/>
+    <input type="text" name="name" id="name"/><br/><br/>
+    <button onClick="GetMarks()" id="submit-button">submit</button>
+
+    <h2>Our Details</h2>
+    <h3 id="show"></h3>
+
+    <h2 id="details"></h2>
+
+    
+
+    <script>
+        const details = document.getElementById("details");
+        const show = document.getElementById("show");
+        function GetMarks() {
+            show.innerHTML = "";
+            const name = document.getElementById("name").value;
+            document.getElementById("submit-button").disabled = true;
+            setTimeout(()=>{
+                details.style.color = 'red';
+                details.innerText = "Getting Details, this may take a while...";
+                setTimeout(()=> {
+                    details.style.color = 'green';
+                    details.innerText = "Name and branch Registerd..."
+                    show.innerHTML += `
+                    <span style="color : red">Name: </span>
+                    <span style="color : green">${name}</span><br/><br/>
+                    <span style="color : red">Departement: </span>
+                    <span style="color : green">CSE</span><br/><br/>
+                    `;
+                    setTimeout(()=> {
+                        details.style.color = 'red';
+                        details.innerText ="Getting Marks, this may take a while...";
+                        setTimeout(()=> {
+                            details.style.color = 'green';
+                            details.innerText = "Assignement successfull..."
+                            show.innerHTML += `
+                            <span style="color : red">Math: </span>
+                            <span style="color : green">85</span><br/><br/>
+                            <span style="color : red">Sceiene: </span>
+                            <span style="color : green">85</span><br/><br/>
+                            <span style="color : red">social: </span>
+                            <span style="color : green">65</span><br/><br/>
+                            `;
+                            setTimeout(()=> {
+                                details.style.color = 'red';
+                                details.innerText ="Getting Your Grade...";
+                                details.innerText ="Your Grade...";
+                                show.innerHTML += `<span>Passed</span>`;
+                                document.getElementById("submit-button").disabled = false;
+                            },2000);
+                        },2000);
+                    },2000);
+                },2000)
+            },2000);
+        }
+    </script>
+</body>
+
+</html>
