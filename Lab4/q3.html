@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <style>
+        .table {
+            border: 1px solid gray;
+        }
+        .table tbody tr td , .table thead tr th{
+            border: 1px solid gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>User Details From Our Data Base</h1>
+    <button onClick="getData()">Get Data</button><br/><br/>
+    <table class="table">
+        <thead>
+            <tr>
+            <th>User Id</th>
+            <th>User name</th>
+            <th>email</th>
+            <th>phone</th> 
+            <th>website</th>           
+        </tr>
+        </thead>
+        <tbody id="content">
+            
+        </tbody>
+        
+    </table>
+
+    <script>
+        const contentEle = document.getElementById("content");
+        async function getData()  {
+            const res = await fetch("https://jsonplaceholder.typicode.com/users");
+            const data = await res.json();
+            console.log(data);
+            contentEle.innerHTML = ""
+            for(let cur of data) {
+                contentEle.innerHTML += `
+                    <tr>
+                        <td>${cur.id}</td>
+                        <td>${cur.username}</td>
+                        <td>${cur.email}</td>
+                        <td>${cur.phone}</td>
+                        <td>${cur.website}</td>
+                    </tr>
+                `
+
+            }
+        }
+    </script>
+</body>
+</html>

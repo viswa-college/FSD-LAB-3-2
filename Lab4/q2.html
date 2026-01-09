@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+</head>
+<body>
+    <h1>Place the Order</h1>
+    <input type="text" placeholder="Enter ur name"/><br/><br/>
+    <input type="text" placeholder="Enter Resturant name"/><br/><br/>
+    <input type="number" placeholder="Enter the count"/><br/><br/>
+    <button onClick="placeIt()">Place Order</button><br/><br/>
+
+    <h2 id="displayContent"></h2>
+    <script>
+        const contentEle = document.getElementById("displayContent");
+         function processTheOrder() {
+            contentEle.innerHTML += "<div style='color: red'>Placing Order....</div>"
+            const placeOrder =   new Promise((resolve , reject)  =>  {setTimeout(()=>{
+                contentEle.innerHTML += "<div style='color: green'>Order Placed</div>";resolve()
+            },2000)})
+            return placeOrder
+        }
+        function placeIt() {
+            processTheOrder().then(() => {
+                console.log("hellio");
+            contentEle.innerHTML += "<div style='color: red'>Validating order...</div>"
+            const validatingOrder = new Promise( (resolve , reject)  =>  {setTimeout(()=>{
+                contentEle.innerHTML += "<div style='color: green'>Order validated</div>";
+            },2000)});}).then(()=> {
+            contentEle.innerHTML += "<div style='color: red'>Food is being prepared...</div>"
+            const foodProcess =   new Promise( (resolve , reject)  => {setTimeout(()=>{
+                contentEle.innerHTML += "<div style='color: green'>Food prepared</div>";
+            },2000)});}).then(()=> {
+            contentEle.innerHTML += "<div style='color: red'>Assigning delivery partner...</div>"
+            const assingingPatner =   new Promise( (resolve , reject)  =>  {setTimeout(()=>{
+                contentEle.innerHTML += "<div style='color: green'>Delivery partner assigned: DP102</div>"
+            },2000)});}).then(()=> {
+            contentEle.innerHTML += "<div style='color: red'>Out for delivery...</div>"
+            const develOut =   new Promise( (resolve , reject)  =>  {setTimeout(()=>{
+                contentEle.innerHTML += "<div style='color: green'>Order delivered successfully to viswa</div>"
+           },2000)});})
+
+        }
+    </script>
+</body>
+</html>
