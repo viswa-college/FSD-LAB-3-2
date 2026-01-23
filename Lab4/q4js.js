@@ -1,4 +1,3 @@
-             
 import {API_KEY} from './env.js';
 
 document.getElementById("btn").addEventListener("click", ()=>{
@@ -22,3 +21,4 @@ ${data.weather[0].icon}@2x.png" alt="icon"/>
     `
     console.log(data);
 }
+

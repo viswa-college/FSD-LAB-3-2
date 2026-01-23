@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHib List</title>
+</head>
+<body>
+    <h1>GitHub List</h1>
+    <input type="text" id="input" />
+    <button id="btn">submit</button>
+
+    <div id="content"></div>
+
+
+    <script>
+        document.getElementById('btn').addEventListener('click' , () => {
+            getData();
+        });
+
+        const getData = async () => {
+            const value = document.getElementById('input').value;
+            const res = await fetch(`https://api.github.com/users/${value}/repos`);
+            const data = await res.json();
+            console.log(data);
+            document.getElementById('content').innerHTML = "";
+            document.getElementById('content').innerHTML +=  data.map((cur)=> {
+                return `
+                <div>
+                    <p>Repo Name: ${cur.name}</p>
+                    <p>Languages: ${cur.language}</p>
+                    <a href=${cur.clone_url}>URL : ${cur.clone_url}</a>
+                </div>
+                `
+            })
+        }
+    </script>
+</body>
+</html>
