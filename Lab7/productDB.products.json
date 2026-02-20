@@ -1,0 +1,1119 @@
+[{
+  "name": "Dell Inspiron Laptop",
+  "description": "High performance laptop",
+  "category": "Electronics",
+  "brand": "Dell",
+  "sku": "DL-1001",
+  "pricing": {
+    "price": 75000,
+    "discount": 10,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 25,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "processor": "Intel i7",
+    "ram": "16GB",
+    "storage": "512GB SSD"
+  },
+  "features": [
+    "Backlit Keyboard",
+    "Fingerprint Sensor",
+    "Fast Charging",
+    "Lightweight"
+  ],
+  "rating": {
+    "average": 4.5,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Suhail",
+        "ratingValue": 5,
+        "comment": "Excellent performance",
+        "reviewDate": "2025-01-10"
+      },
+      {
+        "username": "Ahmed",
+        "ratingValue": 4,
+        "comment": "Good build quality",
+        "reviewDate": "2025-01-12"
+      }
+    ]
+  },
+  "createdAt": "2025-01-01",
+  "updatedAt": "2025-01-02"
+},
+{
+  "name": "HP Pavilion Laptop",
+  "description": "Slim business laptop",
+  "category": "Electronics",
+  "brand": "HP",
+  "sku": "HP-1002",
+  "pricing": {
+    "price": 68000,
+    "discount": 8,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 30,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "processor": "Intel i5",
+    "ram": "8GB",
+    "storage": "512GB SSD"
+  },
+  "features": [
+    "Anti-glare Screen",
+    "Lightweight",
+    "Long Battery"
+  ],
+  "rating": {
+    "average": 4.2,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Ravi",
+        "ratingValue": 4,
+        "comment": "Nice design",
+        "reviewDate": "2025-02-01"
+      },
+      {
+        "username": "Priya",
+        "ratingValue": 4,
+        "comment": "Value for money",
+        "reviewDate": "2025-02-02"
+      }
+    ]
+  },
+  "createdAt": "2025-01-03",
+  "updatedAt": "2025-01-05"
+},
+{
+  "name": "Lenovo ThinkPad",
+  "description": "Professional laptop",
+  "category": "Electronics",
+  "brand": "Lenovo",
+  "sku": "LN-1003",
+  "pricing": {
+    "price": 82000,
+    "discount": 12,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 15,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "processor": "Intel i7",
+    "ram": "16GB",
+    "storage": "1TB SSD"
+  },
+  "features": [
+    "Durable Build",
+    "Security Chip",
+    "Fast Boot"
+  ],
+  "rating": {
+    "average": 4.7,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Kiran",
+        "ratingValue": 5,
+        "comment": "Perfect for office",
+        "reviewDate": "2025-01-15"
+      },
+      {
+        "username": "Anita",
+        "ratingValue": 4,
+        "comment": "Very reliable",
+        "reviewDate": "2025-01-20"
+      }
+    ]
+  },
+  "createdAt": "2025-01-06",
+  "updatedAt": "2025-01-07"
+},
+{
+  "name": "Apple MacBook Air",
+  "description": "Lightweight Apple laptop",
+  "category": "Electronics",
+  "brand": "Apple",
+  "sku": "AP-1004",
+  "pricing": {
+    "price": 120000,
+    "discount": 5,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 12,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "processor": "M2",
+    "ram": "8GB",
+    "storage": "256GB SSD"
+  },
+  "features": [
+    "Retina Display",
+    "Silent Operation",
+    "Premium Build"
+  ],
+  "rating": {
+    "average": 4.8,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Rahul",
+        "ratingValue": 5,
+        "comment": "Amazing performance",
+        "reviewDate": "2025-02-10"
+      },
+      {
+        "username": "Neha",
+        "ratingValue": 5,
+        "comment": "Super lightweight",
+        "reviewDate": "2025-02-12"
+      }
+    ]
+  },
+  "createdAt": "2025-01-08",
+  "updatedAt": "2025-01-09"
+},
+{
+  "name": "Samsung Galaxy S23",
+  "description": "Flagship smartphone",
+  "category": "Mobiles",
+  "brand": "Samsung",
+  "sku": "SM-1005",
+  "pricing": {
+    "price": 75000,
+    "discount": 7,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 40,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "processor": "Snapdragon",
+    "ram": "12GB",
+    "storage": "256GB"
+  },
+  "features": [
+    "AMOLED Display",
+    "Fast Charging",
+    "Water Resistant"
+  ],
+  "rating": {
+    "average": 4.4,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Arjun",
+        "ratingValue": 4,
+        "comment": "Great camera",
+        "reviewDate": "2025-02-14"
+      },
+      {
+        "username": "Meera",
+        "ratingValue": 5,
+        "comment": "Smooth performance",
+        "reviewDate": "2025-02-15"
+      }
+    ]
+  },
+  "createdAt": "2025-01-10",
+  "updatedAt": "2025-01-11"
+},
+{
+  "name": "OnePlus 12",
+  "description": "Fast performance phone",
+  "category": "Mobiles",
+  "brand": "OnePlus",
+  "sku": "OP-1006",
+  "pricing": {
+    "price": 65000,
+    "discount": 6,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 35,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "processor": "Snapdragon",
+    "ram": "12GB",
+    "storage": "256GB"
+  },
+  "features": [
+    "Fast Charging",
+    "Smooth UI",
+    "Gaming Mode"
+  ],
+  "rating": {
+    "average": 4.3,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Sana",
+        "ratingValue": 4,
+        "comment": "Very fast",
+        "reviewDate": "2025-02-20"
+      },
+      {
+        "username": "Vikram",
+        "ratingValue": 5,
+        "comment": "Excellent UI",
+        "reviewDate": "2025-02-21"
+      }
+    ]
+  },
+  "createdAt": "2025-01-12",
+  "updatedAt": "2025-01-13"
+},
+{
+  "name": "Sony Headphones",
+  "description": "Noise cancelling headphones",
+  "category": "Audio",
+  "brand": "Sony",
+  "sku": "SN-1007",
+  "pricing": {
+    "price": 22000,
+    "discount": 15,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 50,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "type": "Wireless",
+    "battery": "30hr"
+  },
+  "features": [
+    "Noise Cancellation",
+    "Bluetooth",
+    "Comfort Fit"
+  ],
+  "rating": {
+    "average": 4.6,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "John",
+        "ratingValue": 5,
+        "comment": "Great sound",
+        "reviewDate": "2025-01-18"
+      },
+      {
+        "username": "Ali",
+        "ratingValue": 4,
+        "comment": "Comfortable",
+        "reviewDate": "2025-01-19"
+      }
+    ]
+  },
+  "createdAt": "2025-01-14",
+  "updatedAt": "2025-01-15"
+},
+{
+  "name": "Canon DSLR Camera",
+  "description": "Professional camera",
+  "category": "Camera",
+  "brand": "Canon",
+  "sku": "CN-1008",
+  "pricing": {
+    "price": 90000,
+    "discount": 9,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 10,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "megapixel": "24MP",
+    "lens": "18-55mm"
+  },
+  "features": [
+    "4K Video",
+    "Optical Zoom",
+    "WiFi"
+  ],
+  "rating": {
+    "average": 4.5,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Deepak",
+        "ratingValue": 5,
+        "comment": "Excellent clarity",
+        "reviewDate": "2025-02-05"
+      },
+      {
+        "username": "Lata",
+        "ratingValue": 4,
+        "comment": "Good lens",
+        "reviewDate": "2025-02-06"
+      }
+    ]
+  },
+  "createdAt": "2025-01-16",
+  "updatedAt": "2025-01-17"
+},
+{
+  "name": "LG Smart TV",
+  "description": "4K UHD television",
+  "category": "Electronics",
+  "brand": "LG",
+  "sku": "LG-1009",
+  "pricing": {
+    "price": 55000,
+    "discount": 11,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 18,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "size": "55inch",
+    "resolution": "4K"
+  },
+  "features": [
+    "Smart Apps",
+    "HDR",
+    "Dolby Audio"
+  ],
+  "rating": {
+    "average": 4.4,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Ramesh",
+        "ratingValue": 4,
+        "comment": "Nice display",
+        "reviewDate": "2025-02-03"
+      },
+      {
+        "username": "Nina",
+        "ratingValue": 5,
+        "comment": "Great audio",
+        "reviewDate": "2025-02-04"
+      }
+    ]
+  },
+  "createdAt": "2025-01-18",
+  "updatedAt": "2025-01-19"
+},
+{
+  "name": "Boat Smartwatch",
+  "description": "Fitness tracking watch",
+  "category": "Wearables",
+  "brand": "Boat",
+  "sku": "BT-1010",
+  "pricing": {
+    "price": 4000,
+    "discount": 20,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 60,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "battery": "7days",
+    "display": "AMOLED"
+  },
+  "features": [
+    "Heart Rate",
+    "Sleep Tracking",
+    "Waterproof"
+  ],
+  "rating": {
+    "average": 4.1,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Irfan",
+        "ratingValue": 4,
+        "comment": "Good features",
+        "reviewDate": "2025-02-07"
+      },
+      {
+        "username": "Sneha",
+        "ratingValue": 4,
+        "comment": "Affordable",
+        "reviewDate": "2025-02-08"
+      }
+    ]
+  },
+  "createdAt": "2025-01-20",
+  "updatedAt": "2025-01-21"
+},
+{
+  "name": "Asus Gaming Laptop",
+  "description": "High-end gaming laptop",
+  "category": "Electronics",
+  "brand": "Asus",
+  "sku": "AS-1011",
+  "pricing": {
+    "price": 135000,
+    "discount": 10,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 9,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "processor": "Ryzen 9",
+    "ram": "32GB",
+    "storage": "1TB SSD"
+  },
+  "features": [
+    "RGB Keyboard",
+    "High Refresh Display",
+    "Cooling System"
+  ],
+  "rating": {
+    "average": 4.9,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "GamerX",
+        "ratingValue": 5,
+        "comment": "Super fast",
+        "reviewDate": "2025-01-25"
+      },
+      {
+        "username": "Leo",
+        "ratingValue": 5,
+        "comment": "Best gaming laptop",
+        "reviewDate": "2025-01-26"
+      }
+    ]
+  },
+  "createdAt": "2025-01-22",
+  "updatedAt": "2025-01-23"
+},
+{
+  "name": "Mi Power Bank",
+  "description": "Portable charger",
+  "category": "Accessories",
+  "brand": "Mi",
+  "sku": "MI-1012",
+  "pricing": {
+    "price": 2000,
+    "discount": 15,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 100,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "capacity": "20000mAh"
+  },
+  "features": [
+    "Fast Charge",
+    "Dual USB",
+    "Compact"
+  ],
+  "rating": {
+    "average": 4.3,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Raj",
+        "ratingValue": 4,
+        "comment": "Very useful",
+        "reviewDate": "2025-01-27"
+      },
+      {
+        "username": "Anu",
+        "ratingValue": 4,
+        "comment": "Good battery",
+        "reviewDate": "2025-01-28"
+      }
+    ]
+  },
+  "createdAt": "2025-01-24",
+  "updatedAt": "2025-01-25"
+},
+{
+  "name": "JBL Speaker",
+  "description": "Portable Bluetooth speaker",
+  "category": "Audio",
+  "brand": "JBL",
+  "sku": "JB-1013",
+  "pricing": {
+    "price": 7000,
+    "discount": 13,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 45,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "battery": "12hr"
+  },
+  "features": [
+    "Bass Boost",
+    "Waterproof",
+    "Bluetooth 5.0"
+  ],
+  "rating": {
+    "average": 4.5,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Sam",
+        "ratingValue": 5,
+        "comment": "Loud sound",
+        "reviewDate": "2025-01-29"
+      },
+      {
+        "username": "Tina",
+        "ratingValue": 4,
+        "comment": "Nice bass",
+        "reviewDate": "2025-01-30"
+      }
+    ]
+  },
+  "createdAt": "2025-01-26",
+  "updatedAt": "2025-01-27"
+},
+{
+  "name": "Logitech Mouse",
+  "description": "Wireless mouse",
+  "category": "Accessories",
+  "brand": "Logitech",
+  "sku": "LG-1014",
+  "pricing": {
+    "price": 1200,
+    "discount": 10,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 80,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "dpi": "1600"
+  },
+  "features": [
+    "Silent Click",
+    "Wireless",
+    "Ergonomic"
+  ],
+  "rating": {
+    "average": 4.2,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Nikhil",
+        "ratingValue": 4,
+        "comment": "Smooth",
+        "reviewDate": "2025-02-01"
+      },
+      {
+        "username": "Pooja",
+        "ratingValue": 4,
+        "comment": "Comfortable",
+        "reviewDate": "2025-02-02"
+      }
+    ]
+  },
+  "createdAt": "2025-01-28",
+  "updatedAt": "2025-01-29"
+},
+{
+  "name": "Acer Monitor",
+  "description": "Full HD monitor",
+  "category": "Electronics",
+  "brand": "Acer",
+  "sku": "AC-1015",
+  "pricing": {
+    "price": 15000,
+    "discount": 9,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 20,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "size": "24inch"
+  },
+  "features": [
+    "IPS Panel",
+    "Thin Bezel",
+    "Eye Care"
+  ],
+  "rating": {
+    "average": 4.3,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Dev",
+        "ratingValue": 4,
+        "comment": "Clear display",
+        "reviewDate": "2025-02-03"
+      },
+      {
+        "username": "Maya",
+        "ratingValue": 5,
+        "comment": "Nice colors",
+        "reviewDate": "2025-02-04"
+      }
+    ]
+  },
+  "createdAt": "2025-01-30",
+  "updatedAt": "2025-01-31"
+},
+{
+  "name": "Realme Buds",
+  "description": "Wireless earbuds",
+  "category": "Audio",
+  "brand": "Realme",
+  "sku": "RM-1016",
+  "pricing": {
+    "price": 3500,
+    "discount": 18,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 70,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "battery": "20hr"
+  },
+  "features": [
+    "Noise Isolation",
+    "Fast Pairing",
+    "Touch Control"
+  ],
+  "rating": {
+    "average": 4,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Sara",
+        "ratingValue": 4,
+        "comment": "Good sound",
+        "reviewDate": "2025-02-05"
+      },
+      {
+        "username": "Karthik",
+        "ratingValue": 4,
+        "comment": "Nice fit",
+        "reviewDate": "2025-02-06"
+      }
+    ]
+  },
+  "createdAt": "2025-02-01",
+  "updatedAt": "2025-02-02"
+},
+{
+  "name": "Apple iPad",
+  "description": "Tablet device",
+  "category": "Electronics",
+  "brand": "Apple",
+  "sku": "AP-1017",
+  "pricing": {
+    "price": 45000,
+    "discount": 6,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 14,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "storage": "128GB"
+  },
+  "features": [
+    "Retina Display",
+    "FaceTime",
+    "Apple Pencil Support"
+  ],
+  "rating": {
+    "average": 4.7,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Vani",
+        "ratingValue": 5,
+        "comment": "Very smooth",
+        "reviewDate": "2025-02-07"
+      },
+      {
+        "username": "Rohit",
+        "ratingValue": 4,
+        "comment": "Great tablet",
+        "reviewDate": "2025-02-08"
+      }
+    ]
+  },
+  "createdAt": "2025-02-03",
+  "updatedAt": "2025-02-04"
+},
+{
+  "name": "Corsair Keyboard",
+  "description": "Mechanical keyboard",
+  "category": "Accessories",
+  "brand": "Corsair",
+  "sku": "CR-1018",
+  "pricing": {
+    "price": 9000,
+    "discount": 14,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 22,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "type": "Mechanical"
+  },
+  "features": [
+    "RGB Lighting",
+    "Gaming Mode",
+    "Durable Keys"
+  ],
+  "rating": {
+    "average": 4.6,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Max",
+        "ratingValue": 5,
+        "comment": "Great typing",
+        "reviewDate": "2025-02-09"
+      },
+      {
+        "username": "Lee",
+        "ratingValue": 4,
+        "comment": "Solid build",
+        "reviewDate": "2025-02-10"
+      }
+    ]
+  },
+  "createdAt": "2025-02-05",
+  "updatedAt": "2025-02-06"
+},
+{
+  "name": "Seagate HDD",
+  "description": "External hard disk",
+  "category": "Storage",
+  "brand": "Seagate",
+  "sku": "SG-1019",
+  "pricing": {
+    "price": 6000,
+    "discount": 12,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 38,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "capacity": "2TB"
+  },
+  "features": [
+    "USB 3.0",
+    "Portable",
+    "Shock Resistant"
+  ],
+  "rating": {
+    "average": 4.4,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Imran",
+        "ratingValue": 4,
+        "comment": "Fast transfer",
+        "reviewDate": "2025-02-11"
+      },
+      {
+        "username": "Zara",
+        "ratingValue": 5,
+        "comment": "Reliable",
+        "reviewDate": "2025-02-12"
+      }
+    ]
+  },
+  "createdAt": "2025-02-07",
+  "updatedAt": "2025-02-08"
+},
+{
+  "name": "TP-Link Router",
+  "description": "WiFi router",
+  "category": "Networking",
+  "brand": "TP-Link",
+  "sku": "TP-1020",
+  "pricing": {
+    "price": 3000,
+    "discount": 20,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 55,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "speed": "1200Mbps"
+  },
+  "features": [
+    "Dual Band",
+    "Easy Setup",
+    "Secure Network"
+  ],
+  "rating": {
+    "average": 4.1,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Naveen",
+        "ratingValue": 4,
+        "comment": "Stable connection",
+        "reviewDate": "2025-02-13"
+      },
+      {
+        "username": "Kavya",
+        "ratingValue": 4,
+        "comment": "Good range",
+        "reviewDate": "2025-02-14"
+      }
+    ]
+  },
+  "createdAt": "2025-02-09",
+  "updatedAt": "2025-02-10"
+},
+{
+  "name": "Philips Trimmer",
+  "description": "Beard trimmer",
+  "category": "Grooming",
+  "brand": "Philips",
+  "sku": "PH-1021",
+  "pricing": {
+    "price": 2500,
+    "discount": 17,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 42,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "battery": "90min"
+  },
+  "features": [
+    "Cordless",
+    "Fast Charge",
+    "Skin Friendly"
+  ],
+  "rating": {
+    "average": 4.3,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Sameer",
+        "ratingValue": 4,
+        "comment": "Sharp blades",
+        "reviewDate": "2025-02-15"
+      },
+      {
+        "username": "Asha",
+        "ratingValue": 4,
+        "comment": "Easy use",
+        "reviewDate": "2025-02-16"
+      }
+    ]
+  },
+  "createdAt": "2025-02-11",
+  "updatedAt": "2025-02-12"
+},
+{
+  "name": "Nike Running Shoes",
+  "description": "Sports shoes",
+  "category": "Fashion",
+  "brand": "Nike",
+  "sku": "NK-1022",
+  "pricing": {
+    "price": 8000,
+    "discount": 10,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 65,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "size": "Various"
+  },
+  "features": [
+    "Lightweight",
+    "Breathable",
+    "Comfortable"
+  ],
+  "rating": {
+    "average": 4.5,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Ajay",
+        "ratingValue": 5,
+        "comment": "Very comfy",
+        "reviewDate": "2025-02-17"
+      },
+      {
+        "username": "Rekha",
+        "ratingValue": 4,
+        "comment": "Nice fit",
+        "reviewDate": "2025-02-18"
+      }
+    ]
+  },
+  "createdAt": "2025-02-13",
+  "updatedAt": "2025-02-14"
+},
+{
+  "name": "Adidas Backpack",
+  "description": "Travel backpack",
+  "category": "Fashion",
+  "brand": "Adidas",
+  "sku": "AD-1023",
+  "pricing": {
+    "price": 3500,
+    "discount": 12,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 48,
+    "warehouse": "HYD-01"
+  },
+  "specifications": {
+    "capacity": "30L"
+  },
+  "features": [
+    "Water Resistant",
+    "Multiple Pockets",
+    "Comfort Straps"
+  ],
+  "rating": {
+    "average": 4.2,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Hari",
+        "ratingValue": 4,
+        "comment": "Spacious",
+        "reviewDate": "2025-02-19"
+      },
+      {
+        "username": "Divya",
+        "ratingValue": 4,
+        "comment": "Durable",
+        "reviewDate": "2025-02-20"
+      }
+    ]
+  },
+  "createdAt": "2025-02-15",
+  "updatedAt": "2025-02-16"
+},
+{
+  "name": "KitchenAid Mixer",
+  "description": "Kitchen mixer",
+  "category": "Home Appliances",
+  "brand": "KitchenAid",
+  "sku": "KA-1024",
+  "pricing": {
+    "price": 18000,
+    "discount": 8,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 16,
+    "warehouse": "HYD-02"
+  },
+  "specifications": {
+    "power": "300W"
+  },
+  "features": [
+    "Multiple Speed",
+    "Durable Motor",
+    "Compact Design"
+  ],
+  "rating": {
+    "average": 4.6,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "ChefRaj",
+        "ratingValue": 5,
+        "comment": "Very powerful",
+        "reviewDate": "2025-02-21"
+      },
+      {
+        "username": "Mona",
+        "ratingValue": 4,
+        "comment": "Good mixer",
+        "reviewDate": "2025-02-22"
+      }
+    ]
+  },
+  "createdAt": "2025-02-17",
+  "updatedAt": "2025-02-18"
+},
+{
+  "name": "Voltas AC",
+  "description": "Split air conditioner",
+  "category": "Home Appliances",
+  "brand": "Voltas",
+  "sku": "VT-1025",
+  "pricing": {
+    "price": 38000,
+    "discount": 9,
+    "currency": "INR"
+  },
+  "inventory": {
+    "stock": 11,
+    "warehouse": "HYD-03"
+  },
+  "specifications": {
+    "capacity": "1.5 Ton"
+  },
+  "features": [
+    "Energy Efficient",
+    "Fast Cooling",
+    "Silent Mode"
+  ],
+  "rating": {
+    "average": 4.4,
+    "totalReviews": 2,
+    "reviews": [
+      {
+        "username": "Iqbal",
+        "ratingValue": 4,
+        "comment": "Cools fast",
+        "reviewDate": "2025-02-23"
+      },
+      {
+        "username": "Shreya",
+        "ratingValue": 5,
+        "comment": "Very efficient",
+        "reviewDate": "2025-02-24"
+      }
+    ]
+  },
+  "createdAt": "2025-02-19",
+  "updatedAt": "2025-02-20"
+}]
