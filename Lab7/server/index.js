@@ -7,7 +7,19 @@ const MONGO_URI = process.env.MONGO_URI;
 const PORT = process.env.PORT;
 async function main() {
     try {
-        await mongoose.connect(MONGO_URI);
+        await mongoose.connect(MONGO_URI); // config folder
+        const adminSchema = new mongoose.Schema({ // models folder
+            name: String,
+            phone: String,
+            dob: Date,
+        });
+        const Admin = mongoose.model('admin' , adminSchema);
+        const res = await Admin.create({ // controllers folder
+            name: "Surya Teja",
+            phone: "+91 965784523689",
+            dob: Date.now()
+        });
+        console.log(res);
         console.log("Connected!..");
         
     }catch(e) {
@@ -17,7 +29,7 @@ async function main() {
 } 
 main();
 
-app.get('/' ,(req,res)=> {
+app.get('/' ,(req,res)=> { // routes folder
     res.send("Hello Server");
 });
 
